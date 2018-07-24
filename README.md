@@ -1,5 +1,6 @@
 # xiaokefu
 芝麻小客服接入示例
+<br />
 ![image](https://github.com/hotapp8/xiaokefu/blob/master/xiaokefu_demo.png)
 
 ### 打开客服
