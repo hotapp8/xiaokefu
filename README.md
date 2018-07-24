@@ -1,7 +1,9 @@
 # xiaokefu
 芝麻小客服接入示例
 ##打开客服
-<button type='default' open-type='contact'> 打开客服 (普通客服) </button>
+
+<p><button type='default' open-type='contact'> 打开客服 (普通客服) </button></p>
+
 ##固定的客服头像和昵称
 ```js
 <button type='default' session-from='{"nickName":"赵丽颖","avatarUrl":"https://ss0.baidu.com/6ONWsjip0QIZ8tyhnq/it/u=956547549,964120469&fm=58"}' open-type="contact"> 带头像客服 （固定头像）</button>
