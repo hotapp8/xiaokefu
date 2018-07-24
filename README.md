@@ -1,8 +1,8 @@
 # xiaokefu
 芝麻小客服接入示例
 ##打开客服
-
-<p><button type='default' open-type='contact'> 打开客服 (普通客服) </button></p>
+```js
+<button type='default' open-type='contact'> 打开客服 (普通客服) </button>
 
 ##固定的客服头像和昵称
 ```js
