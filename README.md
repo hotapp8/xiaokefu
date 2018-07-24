@@ -1,5 +1,8 @@
 # xiaokefu
+芝麻小客服，是专为小程序客服而开发的智能客服，支持关键词下发图文，图片消息，引导关注公众号，加微信群，加微信好友，支持多客服智能接待， 支持手机回复消息。
+<br />
 芝麻小客服接入示例
+
 <br />
 <br />
 ![image](https://github.com/hotapp8/xiaokefu/blob/master/xiaokefu_demo.png)
