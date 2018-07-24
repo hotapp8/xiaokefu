@@ -1,0 +1,16 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵</button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+    <button type='default' open-type='contact'> 打开客服 (普通客服) </button>
+    <button type='default' session-from='{"nickName":"赵丽颖","avatarUrl":"https://ss0.baidu.com/6ONWsjip0QIZ8tyhnq/it/u=956547549,964120469&fm=58"}' open-type="contact"> 带头像客服 （固定头像）</button>
+    <button type='default' session-from='{"nickName":"{{userInfo.nickName}}","avatarUrl":"{{userInfo.avatarUrl}}"}' open-type="contact" >带头像客服（微信头像）</button>
+    <button type='default' session-from='{"source":"产品BBBB","nickName":"{{userInfo.nickName}}","avatarUrl":"{{userInfo.avatarUrl}}"}' open-type="contact" >指定消息来源</button>
+    <button type='default' session-from='{"kefu":["126","127"],"nickName":"{{userInfo.nickName}}","avatarUrl":"{{userInfo.avatarUrl}}"}' open-type="contact"> 指定客服</button>
+    <button open-type='contact' send-message-title="会话内消息卡片" send-message-path="/pages/index/index" send-message-img="https://imgsa.baidu.com/baike/pic/item/562c11dfa9ec8a13918d4ed4fb03918fa0ecc06b.jpg" show-message-card="true">卡片消息</button>
+  </view>
+</view>
