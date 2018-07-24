@@ -1,5 +1,7 @@
 # xiaokefu
 芝麻小客服接入示例
+![image](https://github.com/hotapp8/xiaokefu/blob/master/xiaokefu_demo.png)
+
 ### 打开客服
 ```
 <button type='default' open-type='contact'> 打开客服 (普通客服) </button>
