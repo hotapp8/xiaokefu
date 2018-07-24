@@ -7,6 +7,7 @@
 ##固定的客服头像和昵称
 ```js
 <button type='default' session-from='{"nickName":"赵丽颖","avatarUrl":"https://ss0.baidu.com/6ONWsjip0QIZ8tyhnq/it/u=956547549,964120469&fm=58"}' open-type="contact"> 带头像客服 （固定头像）</button>
+
 ##通过后端传递用户的头像和昵称
 ```js
 <button type='default' session-from='{"nickName":"{{userInfo.nickName}}","avatarUrl":"{{userInfo.avatarUrl}}"}' open-type="contact" >带头像客服（微信头像）</button>
